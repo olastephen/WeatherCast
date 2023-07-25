@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:weathercast="clr-namespace:WeatherCast"
+             x:Class="WeatherCast.TabMain"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom" BackgroundColor="#F6F6F6">
+  <!--Pages can be added as references or inline-->
+    <weathercast:MainPage Title="Home" IconImageSource="Iconfeatherhome.png"/>
+    <weathercast:Location Title="Location" IconImageSource="Iconmateriallocationon.png"/>
+    <weathercast:AddLocation Title="Add Location" IconImageSource="Iconmaterialaddlocation.png" />
+    <weathercast:Settings Title="Settings" IconImageSource="Iconfeathersettings.png" />
+</TabbedPage>
